@@ -1,0 +1,108 @@
+
+/*Use this file to add your styles -there are some cool img in the images path*/
+#memory_board{
+  background-image: url('../img/the-avengers.jpg');
+  background-size: auto;
+}
+
+.tile {
+	background-color: #456783;
+	width: 71px;
+	height: 71px;
+	margin: 20px;
+  padding:20px;
+  float:left;
+	/*display:inline-block;*/
+}
+
+.pic {
+  width: 71px;
+  height: 71px;
+  display: none;
+}
+
+.left {
+  background: #CCE5FF;
+  float: left;
+  height: 700px;
+  padding-top: 10px;
+  width: 20%;
+  border-radius: 50px;
+}
+.center {
+  background: #00D1AE;
+  float: left;
+  height: 700px;
+  padding-top: 10px;
+  margin: 0 1%;
+  width: 55%;
+  border-radius: 100px;
+  align-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#add{
+  float: left;
+  margin-left: auto;
+}
+
+#substract{
+  float: left;
+}
+
+#multiply{
+  float: left;
+}
+
+#divide{
+  float: left;
+}
+.right {
+  background: #CCE5FF;
+  float: left;
+  height: 700px;
+  padding-top: 10px;
+  width: 20%;
+  border-radius: 50px;
+}
+
+#result {
+  background: red;
+  float: left;
+  height: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 42%;
+  width: 16%;
+}
+
+#cards {
+  float: left;
+  margin-top:80px;
+
+
+
+}
+
+#check {
+  background: blue;
+  float: left;
+  height: 100px;
+  margin-top:20px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#startGame {
+  float: left;
+  margin-top:20px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#counter-result {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100%;
+}
